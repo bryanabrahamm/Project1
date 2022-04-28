@@ -5,7 +5,7 @@ int main()
 {   
     int k, m, d, c, f, i;
 
-    Printf("Enter the Day of the month, month number, first two digits of the year and the last two digits of the year");
+    printf("Enter the Day of the month, month number, first two digits of the year and the last two digits of the year");
     scanf("%d%d%d%d", &k, &m, &c, &d);
   
     f = k + ((13*m - 1)/5) + d + d/4 + c/4 - 2*c;
